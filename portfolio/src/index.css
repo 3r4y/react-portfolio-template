@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+  body{
+    font-family: 'Roboto', sans-serif;
+    background: radial-gradient(
+      circle at 150% 0,
+      #182b42 0,
+      #111526 100%
+    );
+    color:var(--white);
+  
+  }
+  @font-face {
+    font-family: "Fonarto";
+    src: url("./assets/Fonarto.ttf");
+  }
